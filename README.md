@@ -15,7 +15,7 @@ This git is Ros application Git.
 http://emanual.robotis.com/docs/en/platform/openmanipulator/    
 *Sencond, you must set turtlebot3_slam_3d environment.   
 https://github.com/ROBOTIS-JAPAN-GIT/turtlebot3_slam_3d    
-*Third, Please download this git and modify the below part.    
+*Third, Please follow the command below to modify some code.    
 ```bash
 $mkdir ~/temp_op
 $cd ~/temp_op
