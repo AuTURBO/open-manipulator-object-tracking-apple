@@ -11,11 +11,11 @@ This git is Ros application Git.
  - reference turtlebot3_slam_3d git to detect object and to get 3D coordination.   
    https://github.com/ROBOTIS-JAPAN-GIT/turtlebot3_slam_3d  
 ## Environment setting     
-#First, you must set open manipulator environment.   
+*First, you must set open manipulator environment.   
 http://emanual.robotis.com/docs/en/platform/openmanipulator/    
-#Sencond, you must set turtlebot3_slam_3d environment.   
+*Sencond, you must set turtlebot3_slam_3d environment.   
 https://github.com/ROBOTIS-JAPAN-GIT/turtlebot3_slam_3d    
-#Third, Please download this git and modify the below part.    
+*Third, Please download this git and modify the below part.    
 ```bash
 $mkdir ~/temp_op
 $cd ~/temp_op
