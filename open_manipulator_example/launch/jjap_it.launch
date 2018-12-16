@@ -1,0 +1,15 @@
+<launch>
+  <arg name="use_robot_name"  default="open_manipulator_with_tb3"/>
+  <arg name="target_object"       default="apple"/>
+  <!--<arg name="target_object"       default="orange"/>-->
+
+  <!-- ros jsk -->
+  <!--<include file="$(find turtlebot3_slam_3d)/launch/demo_bag2.launch">
+  </include>-->
+
+  <!-- manipulator control -->
+  <node pkg="open_manipulator_example" type="open_manipulator_example" name="open_manipulator_example"  output="screen">
+	<param name="target_object"     value="$(arg target_object)"/>
+  </node>
+
+</launch>
